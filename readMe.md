@@ -30,11 +30,24 @@ Sedangkan C ketika ada yang dirasa kurang tahu tentang kejelasannya
 dia langsung menunjuk A yang membuat materi 
 
 ### Linked List
-#### Singly Linked List
-#### Doubly Linked List
-#### Circular Linked List
-##### Singly Circular Linked List
-##### Doubly Circular Linked List
+Linked List adalah sebuah struktur data dari gabungan banyak pointer
+Kegunaannya mirip dengan array yang digunakan untuk menyimpan banyak data
+Bedanya Linked List ini lebih dinamis dan fleksibel
+Dinamis karena batasnya berdasarkan memori device
+Dan fleksibel dalam pengoperasiannya
+
+---
+
+#### Singly Linked-List
+Singly Linked-List adalah linked-list yang hanya memiliki satu arah saja
+Biasanya disebut <strong>next<strong> dalam deklarasinya
+
+---
+
+#### Doubly Linked-List
+#### Circular Linked-List
+##### Singly Circular Linked-List
+##### Doubly Circular Linked-List
 ### Stack
 ### Queue
 #### Circular Queue

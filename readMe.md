@@ -29,7 +29,7 @@ Ketika presentasi, B menyalin atau menghafalkan tentang materi yang sudah dibuat
 Sedangkan C ketika ada yang dirasa kurang tahu tentang kejelasannya 
 dia langsung menunjuk A yang membuat materi 
 
-### [Linked List](/Linked List)
+### [Linked List](/LinkedList)
 Linked List adalah sebuah struktur data dari gabungan banyak pointer
 Kegunaannya mirip dengan array yang digunakan untuk menyimpan banyak data
 Bedanya Linked List ini lebih dinamis dan fleksibel
@@ -38,7 +38,7 @@ Dan fleksibel dalam pengoperasiannya
 
 ---
 
-#### [Singly Linked-List](/Linked List/singlyLinkedList)
+#### [Singly Linked-List](/LinkedList/singlyLinkedList)
 Singly Linked-List adalah linked-list yang hanya memiliki satu arah saja
 Biasanya disebut <strong>next</strong> dalam deklarasinya
 contoh singly linked-list :

@@ -40,7 +40,7 @@ Dan fleksibel dalam pengoperasiannya
 
 #### Singly Linked-List
 Singly Linked-List adalah linked-list yang hanya memiliki satu arah saja
-Biasanya disebut <strong>next<strong> dalam deklarasinya
+Biasanya disebut <strong>next</strong> dalam deklarasinya
 contoh singly linked-list :
 misal ada data 10,20,30 ingin dihubungkan dalam linked-list <br>
 akan menjadi 10 -> 20 -> 30 <br>

@@ -41,6 +41,30 @@ Dan fleksibel dalam pengoperasiannya
 #### Singly Linked-List
 Singly Linked-List adalah linked-list yang hanya memiliki satu arah saja
 Biasanya disebut <strong>next<strong> dalam deklarasinya
+contoh singly linked-list :
+misal ada data 10,20,30 ingin dihubungkan dalam linked-list <br>
+akan menjadi 10 -> 20 -> 30 <br>
+10 menjadi head <br>
+30 menjadi tail <br>
+Ketika ingin menambahkan data di depan, maka awalnya menghubungkan <br>
+node baru ke node head, lalu memindahkan penanda head ke node baru <br>
+<br>
+Begitu juga untuk tail kurang lebih sama, bedanya berada di belakang <br>
+<br>
+Lalu untuk di tengah agak berbeda, karena perlu mengetahui harus berhenti di mana <br>
+Biasanya melihat dari nilai datanya agar bisa urut <br>
+Jika sudah berhenti di node yang nilai dari node next lebih besar dari nilai node yang ingin ditambahkan <br>
+Node baru dihubungkan ke node yang nilainya lebih besar itu terdahulu <br>
+Setelahnya menghubungkan node sebelum ke node baru <br>
+Contoh : 
+10 -> 20 -> 30 <br>
+ingin memasukkan nilai 25 <br>
+Lakukan traversal terdahulu sampai node->next->nilai > baru->nilai <br>
+Jika sudah hubungkan baru->next=node->next <br>
+<strong> (Hal ini dilakukan terlebih dahulu karena jika kita menghubungkan node->next=baru, <br>
+kita tidak bisa akses ke node->next yang sebelumnya karena alamatnya sudah diubah ke node baru) </strong> <br>
+Setelah menghubungkan node baru ke node->next, selanjutnya tinggal menghubungkan node sekarang ke node baru tadi <br>
+<strong> node->next=baru </strong> <br>
 
 ---
 

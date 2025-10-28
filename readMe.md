@@ -69,8 +69,27 @@ Setelah menghubungkan node baru ke node->next, selanjutnya tinggal menghubungkan
 ---
 
 #### [Doubly Linked-List](/LinkedList/doublyLinkedList)
+Kurang lebih doubly linked-list sama/mirip dengan singly Linked-list. <br>
+Bedanya di doubly linked-list terdapat pointer yang menunjukkan node sebelumnya (prev), <br>
+yang di singly linked-list tidak ada atau hanya menunjuk node selanjutnya (next). <br>
+<br>
+Contoh: <br>
+Kita punya data 10,20,30 dan ingin dihubungkan. <br>
+Dalam doubly linked-list, bentuknya menjadi :  <br>
+NULL <-> 10 <-> 20 <-> 30 <-> NULL <br>
+<br>
+Operasinya kurang lebih mirip dengan linked-list, <br>
+hanya saja bisa lebih sederhana atau fleksibel karena bisa mengakses node sebelumnya. <br>
 
 #### Circular Linked-List
+Circular Linked List adalah sebuah linked-list yang melingkar. <br>
+Sesuai namanya "Circular", berarti data yang ada di linked-list berputar atau kembali lagi ke head. <br>
+<br>
+Jadi yang awalnya tail->next menunjuk nullptr menjadi menunjuk head kembali
+
+
+---
+
 ##### Singly Circular Linked-List
 ##### Doubly Circular Linked-List
 ### Stack

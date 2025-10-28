@@ -68,7 +68,8 @@ Setelah menghubungkan node baru ke node->next, selanjutnya tinggal menghubungkan
 
 ---
 
-#### Doubly Linked-List
+#### [Doubly Linked-List](/LinkedList/doublyLinkedList)
+
 #### Circular Linked-List
 ##### Singly Circular Linked-List
 ##### Doubly Circular Linked-List

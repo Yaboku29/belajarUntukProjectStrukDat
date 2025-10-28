@@ -81,21 +81,55 @@ NULL <-> 10 <-> 20 <-> 30 <-> NULL <br>
 Operasinya kurang lebih mirip dengan linked-list, <br>
 hanya saja bisa lebih sederhana atau fleksibel karena bisa mengakses node sebelumnya. <br>
 
-#### Circular Linked-List
+#### [Circular Linked-List](/circularLinkedList)
 Circular Linked List adalah sebuah linked-list yang melingkar. <br>
 Sesuai namanya "Circular", berarti data yang ada di linked-list berputar atau kembali lagi ke head. <br>
 <br>
-Jadi yang awalnya tail->next menunjuk nullptr menjadi menunjuk head kembali
-
+Jadi yang awalnya tail->next menunjuk nullptr menjadi menunjuk head kembali. 
 
 ---
 
-##### Singly Circular Linked-List
-##### Doubly Circular Linked-List
-### Stack
-### Queue
-#### Circular Queue
-#### Double-ended Queue
+##### [Singly Circular Linked-List](/circularLinkedList)
+Singly Circular linked-list adalah Linked List yang melingkar. <br>
+Artinya pointer next pada tail langsung menunjuk ke head yang sebelumnya menunjuk nullptr. <br>
+<br>
+Keunggulan dibanding Singly Linked List biasa adalah dapat kembali ke awal tanpa harus ada node bantuan yang lain. <br>
+
+##### [Doubly Circular Linked-List](/circularLinkedList)
+Sama halnya dengan doubly Linked List, yang menjadi pembeda adalah head bisa ke tail dan sebaliknya. <br>
+Jadi dalam traversalnya lebih fleksibel dan leluasa. <br>
+
+### [Stack](/Stack)
+Stack adalah sebuah struktur data yang menggunakan konsep LIFO (Last-In First-Out)<br>
+Gambarannya itu bisa dianggap sebagai tumpukan (stack) buku, jika kita ingin <br>
+tumpukan buku tersebut tetap rapi, maka kita perlu mengambil buku-bukunya dari paling atas. <br>
+
+---
+
+### [Queue](/Queue)
+Queue adalah sebuah struktur data yang menggunakan konsep FIFO (First-In First-Out) <br>
+Gambarannya itu seperti antrian (Queue) ketika berbelanja, yang mengantri lebih dulu akan dilayani lebih dulu. <br>
+
+---
+
+#### [Circular Queue](/Queue/circularQueue)
+Circular Queue adalah salah satu variasi dari Queue. Circular Queue ini lebih terfokus untuk penyelesaian issue pada normal Queue yang memakai array. <br>
+Hal itu dikarenakan ketika melakukan dequeue, index yang di-dequeue tidak bisa kita pakai lagi dan sangat rentan mengalami <strong> overflow </strong>. <br>
+Bisa saja dengan memindahkan isi data ke index yang kosong, tetapi hal ini membuat <br>
+kompleksitas waktunya menjadi O(n) yang jika kita punya data banyak atau butuh waktu penyelesaian program cepat akan sangat mengganggu. <br>
+Maka dari itu, dibuatlah <strong>Circular Queue</strong> untuk mengatasinya. <br>
+Konsepnya dengan memindahkan penunjuk front dan rear tiap kali dilakukan operasi <strong>enqueue</strong> atau <strong>dequeue</strong>. <br>
+
+#### [Double-ended Queue](/Queue/deque)
+Double-ended queue (Deque) adalah variasi lainnya Queue. Untuk yang satu ini seperti menggabungkan <br>
+konsep "Stack" dan "Queue". Karena dalam Deque, kita bisa tambah data dari depan atau belakang dan keluarkan data dari depan atau belakang. <br>
+<br>
+Deque juga punya 2 jenis yang biasanya ditemui yaitu:
+1. Input-Restricted Deque (1 tempat input dan 2 tempat output)
+2. Output-Restricted Deque (2 tempat input dan 1 tempat output)
+
+---
+
 ### Rekursi
 ### Tree
 #### Tree Traversal

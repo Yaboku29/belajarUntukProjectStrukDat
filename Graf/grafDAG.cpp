@@ -7,5 +7,5 @@ struct node
 };
 
 int main(){
-  edfshghdsgfwsgi  
+  //edfshghdsgfwsgi  
 }
